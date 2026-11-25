@@ -1,0 +1,1134 @@
+# PROJECT: Moonshine Capital — Broker Commission Calculator
+
+## MULTI-VARIANT PRODUCTION & PORTFOLIO EDITION
+
+### 01. Project objective
+
+Act as a senior frontend engineer, fintech product designer, financial modeling specialist, design systems architect, conversion strategist, and repository organization specialist.
+
+Build a fully functional, responsive, static-deployable Broker Commission Calculator for Moonshine Capital.
+
+The project must include four independently implemented visual design variations that share one authoritative financial calculation engine, compensation configuration, application state model, validation system, reporting system, and optional integration layer.
+
+The primary purpose is partner recruitment, commission modeling, business planning, and qualified lead generation.
+
+The secondary purpose is preserving multiple high-quality design implementations as portable, reusable Flash-UI Portfolio assets.
+
+Project name: Moonshine Capital Broker Commission Calculator.
+
+Project slug: moonshine-broker-commission-calculator.
+
+Version: 1.0.0.
+
+Primary production theme: Punk Utility Brutalism.
+
+Primary conversion: Become a Moonshine Capital Partner.
+
+Secondary conversions: Speak with a Recruiter, Download Partner Brochure, and Save Earnings Projection.
+
+Generate actual working application files, not screenshots, wireframes, static mockups, or design descriptions.
+
+---
+
+### 02. Attached visual references
+
+Use the four supplied PNG files as the primary visual references.
+
+Preserve the following exact numbering and theme mapping:
+
+- Broker Commission Calculator 1.png — Punk Utility Brutalism.
+- Broker Commission Calculator 2.png — Broker’s Manifesto.
+- Broker Commission Calculator 3.png — Lime Precision Fintech.
+- Broker Commission Calculator 4.png — Pastel Intelligence.
+
+If the transferable design themes JSON or visual reference gallery is supplied, use the corresponding theme definitions to supplement the PNG references.
+
+The attached images are art-direction references, not approved sources of financial data, official logos, product availability, partner benefits, historical performance, or compensation terms.
+
+Do not reproduce unsupported marketing statistics, commission percentages, guarantees, testimonials, or product categories found in the images.
+
+Use the images to interpret visual composition, typography, color, imagery, layout density, component treatment, and overall design personality.
+
+Do not use the screenshots themselves as flattened website backgrounds.
+
+Recreate the interfaces using responsive HTML, CSS, JavaScript, and individual optimized visual assets.
+
+---
+
+### 03. Mandatory architecture
+
+Implement four visual variations under a root-level `sites/` directory.
+
+Required folders:
+
+- sites/variant-1/
+- sites/variant-2/
+- sites/variant-3/
+- sites/variant-4/
+
+Each variation must include:
+
+- index.html
+- style.css
+- script.js
+- theme.json
+- assets/ where necessary
+
+The root project must also include:
+
+- index.html
+- style.css
+- script.js
+- README.md
+- project.json
+- variants.json
+- shared/
+- references/
+- previews/
+- scripts/
+- tests/
+- docs/
+
+Create a shared calculation engine and configuration system under `shared/`.
+
+Do not maintain four independent copies of the financial calculation logic.
+
+Allow each variant to have its own page structure, CSS, art direction, and presentation-specific JavaScript while importing the shared application functionality.
+
+Use shared semantic input identifiers, standardized state objects, calculation methods, and financial output contracts.
+
+All variants must remain fully functional.
+
+Changing the visual theme must never change the underlying financial results.
+
+---
+
+### 04. Production root requirements
+
+Broker Commission Calculator 1 is the selected production design.
+
+The root index.html must display Variant 1 — Punk Utility Brutalism.
+
+The root URL must:
+
+- Render the actual calculator immediately.
+- Maintain the visual identity of Variant 1.
+- Provide all production-ready calculator functionality.
+- Avoid redirects to nested variant folders.
+- Avoid displaying a theme-selection gallery.
+- Avoid exposing internal development controls.
+- Avoid showing alternative design variants to normal visitors.
+- Avoid loading unused theme assets.
+
+Treat `sites/variant-1/` as the authoritative source for the selected design.
+
+Generate the root production files from the selected variant using a documented build or promotion script that resolves asset paths correctly.
+
+Do not manually maintain two diverging copies of Variant 1.
+
+A change to the authoritative Variant 1 source must be reflected in the generated production root.
+
+Preserve all four variants even when one is selected for production.
+
+---
+
+### 05. Variant 1 — Punk Utility Brutalism
+
+**Status: Selected production design.**
+
+**Visual reference:** Broker Commission Calculator 1.png.
+
+**Theme ID:** punk-utility-brutalism.
+
+Create a high-contrast, hard-edged financial utility interface with the energy of a premium independent-business operating platform.
+
+#### Design tokens
+
+- Near black: #080808
+- Panel black: #141414
+- Electric green: #00F23D
+- Off-white: #F7F7F4
+- Muted gray: #929292
+- Rule gray: #292929
+
+#### Typography
+
+Use heavy condensed grotesk display typography, oversized uppercase headlines, strong number displays, compact readable body copy, and technical uppercase metadata.
+
+Suggested font directions:
+
+- Barlow Condensed or equivalent heavy condensed sans for headings.
+- Inter or equivalent for body and controls.
+- IBM Plex Mono or equivalent for technical metadata.
+
+Use tabular numerals for financial outputs.
+
+#### Visual composition
+
+Follow the supplied image closely:
+
+- Minimal black navigation bar.
+- Oversized two-line hero headline.
+- Electric-green emphasis block behind the second headline line.
+- Angular stripe graphics.
+- Subtle dotted-grid background accents.
+- High-contrast benefit strip.
+- Side-by-side calculator and results panels.
+- White section borders and rules.
+- Square-corner input fields.
+- Oversized green-highlighted earnings displays.
+- Dark analytical chart panels.
+- White section header bands.
+- Hard-edged partner tier cards.
+- Large, blocky recruitment CTA buttons.
+- Restrained offset-shadow treatments.
+
+#### Hero copy
+
+Headline:
+
+CALCULATE YOUR EARNING POTENTIAL
+
+Supporting copy:
+
+Model your potential commissions as a Moonshine Capital partner.
+
+Supporting utility labels:
+
+- MODEL YOUR DEAL FLOW
+- EXPLORE YOUR PRODUCT MIX
+- PLAN YOUR PRODUCTION
+
+Use electric green strategically rather than applying it to every surface.
+
+Do not introduce excessive glassmorphism, rounded SaaS cards, colorful gradients, or generic corporate stock photography.
+
+Make this design bold, precise, conversion-focused, and highly usable.
+
+---
+
+### 06. Variant 2 — Broker’s Manifesto
+
+**Status: Preserved portfolio design.**
+
+**Visual reference:** Broker Commission Calculator 2.png.
+
+**Theme ID:** brokers-manifesto.
+
+Create an independent-finance editorial experience combining neo-brutalist publishing, counterculture collage, technical diagrams, industrial infrastructure, and financial operating-manual aesthetics.
+
+The calculator should feel like an interactive chapter from an independent broker’s field manual.
+
+#### Adapted color tokens
+
+- Warm paper: #F2EBDD
+- Ink black: #151515
+- Acid lime: #D7FF32
+- Charcoal: #262626
+- Photocopy gray: #85817A
+- Off-white: #F7F4E9
+
+#### Typography
+
+- Heavy condensed headline typography.
+- Editorial uppercase labels.
+- Typewriter-inspired or monospaced annotations.
+- Clean, stable financial figures.
+- Readable body typography.
+
+#### Art direction
+
+Recreate the image's editorial collage language using optimized, independently sourced or original assets:
+
+- Classical sculpture imagery.
+- Industrial infrastructure.
+- Architectural fragments.
+- Lunar or orbital references.
+- Photocopy textures.
+- Technical diagram overlays.
+- Torn-paper edge treatments.
+- Acid-lime marker highlights.
+- Directional arrows.
+- Numbered editorial sections.
+- Manifesto-style metadata.
+
+Do not allow decorative textures to interfere with the calculator controls, chart labels, or financial figures.
+
+#### Layout
+
+- Editorial masthead.
+- Asymmetrical collage hero.
+- Oversized headline with acid-lime highlights.
+- Warm-paper calculator workspace.
+- Contrasting black earnings summary.
+- Commission process diagram.
+- Technical projection charts.
+- Ledger-style product breakdown.
+- Partner production milestone cards.
+- Bold manifesto-inspired conversion block.
+
+Suggested additional copy:
+
+BUILD THE PIPELINE. OWN THE PROCESS.
+
+INDEPENDENT CAPITAL FOR INDEPENDENT PROFESSIONALS.
+
+Preserve the rebellious editorial personality while maintaining trustworthy financial modeling and predictable interactions.
+
+---
+
+### 07. Variant 3 — Lime Precision Fintech
+
+**Status: Preserved portfolio design.**
+
+**Visual reference:** Broker Commission Calculator 3.png.
+
+**Theme ID:** lime-precision-fintech.
+
+Additional visual reference:
+
+https://www.framer.com/marketplace/templates/clario/
+
+Create a polished financial SaaS experience that contrasts a premium dark marketing hero with a bright, approachable financial dashboard.
+
+#### Design tokens
+
+- Near black: #090B09
+- Deep graphite: #171A17
+- Signal lime: #A7FA3B
+- Lime wash: #E8F9D5
+- Dashboard white: #F6F7F5
+- Panel silver: #E8EBE7
+- Slate text: #505850
+- Ink: #151A15
+
+#### Typography
+
+Use a clean contemporary sans-serif, balanced headline proportions, clear labels, generous spacing, and stable tabular financial figures.
+
+#### Visual composition
+
+- Dark graphite navigation.
+- Large split-layout hero.
+- Signal-lime headline emphasis.
+- Subtle lime wave or halo effect.
+- Embedded bright calculator dashboard beside the hero copy.
+- Rounded white financial cards.
+- Light-gray dashboard background.
+- Pale lime metric highlights.
+- Clean bar charts.
+- Accessible donut charts.
+- Structured commission breakdown tables.
+- Simple, restrained iconography.
+- Polished pill-shaped or softly rounded CTA buttons.
+
+Place the primary calculator directly inside or adjacent to the hero.
+
+Replace the unverified partner counts and funded-volume statistics shown in the reference image with truthful functional value statements:
+
+- No Login Required.
+- Adjustable Assumptions.
+- Instant Calculations.
+- Transparent Methodology.
+
+Do not import harsh brutalist borders, distressed typography, editorial collage, or excessive decorative neon.
+
+This variation should feel like a credible, product-led neobank or financial analytics SaaS platform.
+
+---
+
+### 08. Variant 4 — Pastel Intelligence
+
+**Status: Preserved portfolio design.**
+
+**Visual reference:** Broker Commission Calculator 4.png.
+
+**Theme ID:** pastel-intelligence.
+
+Additional visual reference:
+
+https://thinkbot.framer.ai/
+
+Create an approachable, optimistic, colorful financial planning experience inspired by modern AI startup websites and friendly product-led interfaces.
+
+#### Adapted color tokens
+
+- Soft white: #FCFBFF
+- Lavender wash: #F1ECFC
+- Lilac: #D5BDFB
+- Primary purple: #793FDC
+- Deep purple ink: #241343
+- Sky blue: #BDEBFA
+- Mint: #B9EAD9
+- Peach: #FFD8B3
+- Butter yellow: #FFF0BE
+
+Adjust these values where necessary to meet accessible contrast requirements.
+
+#### Typography
+
+Use a rounded or friendly geometric sans-serif, confident headlines, clean supporting copy, and readable financial labels.
+
+#### Visual composition
+
+- Bright, minimal navigation.
+- Soft pastel background shapes.
+- Friendly gradient headline accents.
+- Original lightweight 3D-style or vector financial illustrations.
+- Rounded calculator panels.
+- Lavender, mint, and butter-colored earnings cards.
+- Accessible purple projection charts.
+- Soft shadows.
+- Airy spacing.
+- Rounded CTA buttons.
+- Friendly educational callouts.
+- Subtle product illustrations.
+
+Use the reference image's friendly financial illustration and optimistic visual hierarchy without making the application resemble a children's product or casual game.
+
+Keep the financial information precise and professionally credible.
+
+Do not use flashing animations, confetti triggered by higher projected earnings, or manipulative gamification.
+
+---
+
+### 09. Shared functionality requirements
+
+Every variation must provide the same functional calculator capabilities:
+
+1. Monthly funded deal volume.
+2. Average funded deal size.
+3. Configurable product allocation.
+4. Product-specific commission modeling.
+5. Monthly gross commission.
+6. Annualized gross commission.
+7. Modeled first-year commission.
+8. Modeled 36-month cumulative commission.
+9. Conservative, Base Case, and Optimistic scenarios.
+10. Product contribution breakdown.
+11. Growth projections.
+12. Partner tier simulation.
+13. Optional recurring commissions.
+14. Optional qualified bonuses.
+15. Personal income target comparison.
+16. Optional business operating expenses.
+17. Downloadable and printable reports.
+18. Shareable simulation scenarios.
+19. Optional lead capture.
+20. Partner recruitment CTAs.
+21. FAQ and calculation methodology.
+22. Clearly visible earnings disclosures.
+
+Each variation may present these features differently, but no selected design may be reduced to a non-functional demonstration.
+
+Use progressive disclosure for advanced modeling features.
+
+---
+
+### 10. Calculator inputs
+
+#### Monthly funded deals
+
+Provide synchronized sliders and numeric controls.
+
+- Support zero funded deals.
+- Slider range: 0–50.
+- Custom numeric values above 50 up to a configured maximum.
+- Reject negative or invalid values.
+
+#### Average funded deal size
+
+Provide the following presets:
+
+- $10,000
+- $25,000
+- $50,000
+- $100,000
+- $250,000
+- $500,000
+- Custom amount
+
+#### Funding product categories
+
+Support:
+
+- Business Capital.
+- Revenue-Based Funding.
+- Asset-Backed Funding.
+- SaaS / E-commerce Funding.
+- Business Credit.
+
+Use the approved compensation configuration to determine actual available categories.
+
+Provide quick equal-allocation mode and advanced percentage-allocation mode.
+
+Require valid allocations totaling 100%.
+
+Model subscription-based business credit compensation separately when applicable.
+
+Do not invent commission rates or actual program terms based on the supplied screenshots.
+
+---
+
+### 11. Shared calculation engine
+
+Create deterministic financial functions in:
+
+`shared/lib/calculator-engine.js`
+
+For percentage-based products:
+
+Allocated funded deals = Total funded deals × Product allocation percentage.
+
+Eligible funded volume = Allocated funded deals × Average eligible funded amount.
+
+Gross product commission = Eligible funded volume × Applicable commission rate.
+
+For fixed-fee products:
+
+Gross product commission = Eligible funded deals × Fixed commission amount.
+
+Total gross commission = Sum of deal-based commissions + Applicable recurring commissions + Qualified bonuses.
+
+Annualized gross commission = Current monthly gross commission × 12.
+
+Modeled first-year and 36-month commissions must equal the sum of their respective monthly projections.
+
+If operating expenses are enabled, calculate estimated pre-tax operating income from modeled commission receipts minus modeled expenses.
+
+Distinguish commissions earned, commission receipts, gross commission, and estimated pre-tax operating income.
+
+Do not double-count recurring compensation, bonuses, or conversion rates.
+
+Use the same calculation functions in every variation and in exported reports.
+
+---
+
+### 12. Compensation configuration
+
+Create:
+
+`shared/config/commission-config.js`
+
+Include configuration fields for:
+
+- Program name.
+- Version.
+- Effective date.
+- Verification status.
+- Approved source reference.
+- Currency.
+- Product names and identifiers.
+- Compensation methods.
+- Commission rates.
+- Commissionable amount basis.
+- Partner tiers.
+- Tier qualification rules.
+- Bonus structures.
+- Recurring compensation rules.
+- Payment delays.
+- Deductions and clawbacks.
+- Feature availability.
+
+Support two operating modes:
+
+DEMONSTRATION MODE:
+
+Use editable hypothetical rates and clearly identify them as illustrative.
+
+VERIFIED PROGRAM MODE:
+
+Enable only after an approved compensation schedule has been supplied.
+
+Do not present hypothetical compensation values as Moonshine Capital's official rates.
+
+Never fabricate program terms, partner earnings history, or eligibility requirements.
+
+---
+
+### 13. Consistent demonstration dataset
+
+All four variants must initialize with the same demonstration assumptions.
+
+Use:
+
+- Monthly funded deals: 10.
+- Average funded deal amount: $50,000.
+- Illustrative effective commission rate: 3%.
+- Monthly growth: 0%.
+- Bonuses: Disabled.
+- Recurring commissions: Disabled.
+- Operating expenses: $0.
+- Payment delay: 0.
+- Ramp-up: Disabled.
+
+Expected demonstration results:
+
+- Monthly funded volume: $500,000.
+- Monthly gross commission: $15,000.
+- Annualized gross commission: $180,000.
+- Modeled first-year gross commission: $180,000.
+- Modeled 36-month cumulative commission: $540,000.
+
+If showing a diversified product mix, allocate the deals consistently across supported products using the same illustrative rate for this baseline test.
+
+The supplied mockups contain differing deal amounts, allocations, product names, and rates. Do not carry those inconsistencies into the working applications.
+
+Use the standardized demonstration data above for visual comparison and testing.
+
+Display a visible qualification that these are hypothetical figures, not verified program compensation.
+
+---
+
+### 14. Scenario and projection engine
+
+Support three editable scenario presets:
+
+- Conservative: 0.60× modeled production volume.
+- Base Case: 1.00× modeled production volume.
+- Optimistic: 1.40× modeled production volume.
+
+These are hypothetical planning multipliers, not statistically derived earnings ranges.
+
+Recalculate underlying production assumptions rather than multiplying final earnings independently.
+
+Support 12-, 24-, and 36-month projection horizons.
+
+Include adjustable assumptions for:
+
+- Monthly production growth.
+- Ramp-up schedule.
+- Maximum production capacity.
+- Customer retention.
+- Payment timing.
+- Monthly operating expenses.
+
+Default growth to zero.
+
+Only model growth when the user deliberately changes the assumption.
+
+Provide monthly and cumulative charts, scenario comparison charts, detailed projections, and accessible text alternatives.
+
+---
+
+### 15. Partner tiers and additional compensation
+
+Support configurable tier classifications.
+
+Use the following demonstration thresholds only:
+
+- Pre-production: 0 funded deals.
+- Bronze: 1–10 funded deals.
+- Silver: 11–25 funded deals.
+- Gold: 26–50 funded deals.
+- Platinum: 51+ funded deals.
+
+Do not automatically assign increased commission rates unless the configuration explicitly defines them.
+
+Highlight the modeled tier and production required to reach the next tier.
+
+Support optional recurring commissions, volume incentives, qualified performance bonuses, and team overrides only when applicable compensation rules are supplied.
+
+Disable these optional features by default.
+
+Distinguish hypothetical tier labels from official Moonshine Capital program terms.
+
+---
+
+### 16. Income target and reporting modules
+
+Allow users to enter a target monthly gross commission.
+
+Calculate the modeled funded deals and funded capital volume needed to reach that target using the shared compensation engine.
+
+Display a comparison between modeled earnings and the user's selected goal.
+
+Do not use unsourced salary benchmarks or comparisons to top income earners.
+
+Provide:
+
+- Download Earnings Projection.
+- Print / Save as PDF.
+- Download CSV.
+- Copy Scenario Link.
+- Share Scenario.
+- Reset Calculator.
+
+All reports must contain:
+
+- User-selected assumptions.
+- Compensation verification status.
+- Configuration version.
+- Product allocation.
+- Earnings calculations.
+- Scenario projections.
+- Calculation methodology.
+- Earnings disclosure.
+
+Never include contact information in a shareable URL.
+
+---
+
+### 17. Recruitment and lead capture
+
+All variants must remain usable without registration.
+
+Display useful results before requesting contact information.
+
+Primary CTA:
+
+Become a Moonshine Capital Partner
+
+Secondary CTA:
+
+Speak with a Recruiter
+
+Tertiary CTA:
+
+Download Partner Brochure
+
+Optional lead capture CTA:
+
+Send Me My Earnings Plan
+
+Use a centralized `partner-links.js` configuration for CTA destinations.
+
+Support optional lead capture and email integration through an explicitly configured endpoint.
+
+If no endpoint exists, disable email submission and provide a functional local report download instead.
+
+Do not fabricate successful email delivery, form submission, or partner enrollment.
+
+Do not display unsupported partner testimonials, success statistics, or program claims.
+
+---
+
+### 18. Design fidelity and accessibility
+
+The four variants must be genuinely different design implementations.
+
+Do not generate one identical layout and merely replace the colors.
+
+Preserve the defining characteristics of each supplied reference:
+
+- Variant 1: hard-edged utility and bold conversion hierarchy.
+- Variant 2: editorial collage and independent-finance manifesto.
+- Variant 3: dark-to-light product-led financial SaaS.
+- Variant 4: friendly pastel product experience.
+
+Maintain common financial functionality across these visual differences.
+
+Requirements for every variant:
+
+- Mobile-first responsive design.
+- Support for 320px through desktop viewport widths.
+- Accessible semantic HTML.
+- Keyboard-operable inputs.
+- Visible focus states.
+- Minimum 44px touch targets.
+- Proper form labels.
+- WCAG AA contrast targets.
+- Reduced-motion support.
+- Responsive financial tables.
+- Accessible chart summaries.
+- No unintended horizontal overflow.
+- Lightweight, optimized assets.
+
+Create separate desktop and mobile preview screenshots when screenshot-generation tooling is available.
+
+Do not fabricate screenshots of a deployed application.
+
+---
+
+### 19. Variant gallery
+
+Create an optional design gallery at:
+
+`sites/index.html`
+
+The gallery must be separate from the production calculator.
+
+Title:
+
+Moonshine Capital — Design Variations
+
+Display four project cards containing:
+
+- Variant number.
+- Theme name.
+- Reference thumbnail or actual generated preview.
+- Short theme description.
+- Selected production status.
+- Open Live Variant button.
+- Design metadata.
+
+Include an Open Production Site link.
+
+Optionally provide a side-by-side comparison interface.
+
+The gallery is intended for developers, design reviewers, and portfolio browsing.
+
+Do not link to it from the normal production navigation.
+
+Allow it to be excluded entirely from production deployment.
+
+---
+
+### 20. Variant manifest
+
+Create a root-level `variants.json` file.
+
+Track:
+
+- Project ID.
+- Project name.
+- Version.
+- Default variant.
+- Variant identifiers.
+- Variant numbers.
+- Theme names.
+- Theme IDs.
+- Folder paths.
+- Reference image paths.
+- Actual preview paths.
+- Selected status.
+- Portfolio status.
+- Design descriptions.
+
+Set `defaultVariant` to `variant-1`.
+
+Only one variant may be designated as the production default.
+
+Create a theme.json file inside every variant containing its reusable design-system tokens, typography, layout principles, component styling, imagery guidance, and accessibility notes.
+
+---
+
+### 21. Variant promotion system
+
+Create:
+
+`scripts/promote-variant.mjs`
+
+Support a command such as:
+
+`npm run promote -- variant-1`
+
+The script must:
+
+- Validate that the requested variant exists.
+- Update the selected variant in the manifest.
+- Generate or update the root application from that variant.
+- Resolve relative asset and module paths.
+- Preserve the shared financial engine.
+- Preserve the other design variants.
+- Update production metadata.
+- Prevent multiple default variants.
+- Verify that the generated root remains functional.
+
+Do not delete or overwrite alternative designs.
+
+The root must remain the selected application, not become a theme-selection interface.
+
+---
+
+### 22. Flash-UI Portfolio compatibility
+
+The existing Flash-UI Portfolio is located at:
+
+https://flash-ui-portfolio.vercel.app/
+
+Repository:
+
+https://github.com/JFeimster/flash-ui-portfolio
+
+Follow its normalized site and grouped-variant conventions.
+
+Prepare an exportable portfolio project using this structure:
+
+sites/moonshine-broker-commission-calculator/
+
+Include:
+
+- index.html — project and variant gallery.
+- variants.json — design metadata.
+- variant-1/ — Punk Utility Brutalism.
+- variant-2/ — Broker’s Manifesto.
+- variant-3/ — Lime Precision Fintech.
+- variant-4/ — Pastel Intelligence.
+- shared/ — required application dependencies.
+- previews/ — actual generated site previews when available.
+- README.md — project documentation.
+
+The portfolio project must remain functional after being copied into the nested Flash-UI Portfolio directory.
+
+Use relative asset paths.
+
+Do not assume the project is deployed at the domain root.
+
+Create a proposed registry entry compatible with the existing `data/site-registry.json` convention.
+
+Use a grouped project with variant numbers [1, 2, 3, 4].
+
+Mark Variant 1 as the selected production design in project metadata and the gallery.
+
+Do not overwrite the existing Flash-UI Portfolio homepage, registry, other projects, or repository configuration.
+
+Provide import instructions rather than assuming authorization to modify the external repository.
+
+---
+
+### 23. Portfolio export script
+
+Create:
+
+`scripts/export-portfolio.mjs`
+
+Support:
+
+`npm run export:portfolio`
+
+Generate a portable output folder containing the complete grouped project and any dependencies required by its variants.
+
+Suggested destination:
+
+`dist/portfolio/sites/moonshine-broker-commission-calculator/`
+
+Include:
+
+- All four working variants.
+- Variant selection gallery.
+- Shared application core.
+- Optimized visual assets.
+- Theme metadata.
+- Preview images.
+- Documentation.
+- Proposed registry entry.
+
+Do not include secrets, private compensation contracts, CRM credentials, unapproved compensation data, or unnecessary development dependencies.
+
+Keep the portfolio in demonstration mode unless publication of verified compensation data is explicitly authorized.
+
+Verify that all nested asset and module paths work after export.
+
+---
+
+### 24. Deployment architecture
+
+Support three distinct deployment outputs.
+
+PRODUCTION:
+
+- Root calculator.
+- Variant 1 selected design.
+- Required shared dependencies.
+- No public theme gallery.
+- No alternate variants unless explicitly enabled.
+- No development reference assets or experimental files.
+
+REVIEW:
+
+- Root calculator.
+- All four variants.
+- Design comparison gallery.
+- Design metadata.
+- Appropriate non-indexing controls.
+
+PORTFOLIO:
+
+- Nested grouped project.
+- All four functioning variants.
+- Portfolio gallery.
+- Portable shared dependencies.
+- Demonstration compensation data.
+- Portfolio metadata.
+
+Create documented scripts for generating these outputs.
+
+Suggested commands:
+
+- `npm run dev`
+- `npm test`
+- `npm run build`
+- `npm run build:review`
+- `npm run promote -- variant-1`
+- `npm run export:portfolio`
+
+Use a minimal Node.js build utility only where necessary for packaging and promotion.
+
+The deployed applications must not require a Node.js runtime or backend.
+
+Ensure static deployment compatibility with Vercel and GitHub Pages.
+
+Exclude unapproved alternate designs from the production artifact rather than relying on robots.txt or hidden navigation for privacy.
+
+---
+
+### 25. SEO and metadata
+
+Production page title:
+
+Broker Commission Calculator | Moonshine Capital Partner Program
+
+Meta description:
+
+Model potential funding broker commissions, compare production scenarios, and explore your business goals with Moonshine Capital's interactive earnings calculator.
+
+Include:
+
+- Configurable canonical URL.
+- Open Graph metadata.
+- Favicon.
+- Semantic page structure.
+- Appropriate WebApplication structured data.
+- Accessible page descriptions.
+
+Do not invent ratings or customer reviews.
+
+Use noindex for review variants and experimental portfolio calculator pages where appropriate to avoid duplicating the production page in search results.
+
+Do not treat noindex as access control.
+
+---
+
+### 26. Required earnings disclosure
+
+Include a concise disclosure beside all major earnings results.
+
+Suggested short disclosure:
+
+Hypothetical gross commission estimates. Actual earnings vary and are not guaranteed.
+
+Include an expanded methodology disclaimer explaining that projections depend on funded transactions, product eligibility, compensation agreements, payment timing, business expenses, cancellations, clawbacks, individual performance, and user-selected assumptions.
+
+Clearly identify illustrative compensation rates and scenarios.
+
+Gross commission estimates are not equivalent to salary, take-home pay, or net business income.
+
+Refer users to the applicable partner agreement for official compensation terms.
+
+Do not reproduce the reference images' language suggesting that users can see exactly how much they will earn.
+
+---
+
+### 27. Testing and quality assurance
+
+Create automated tests for:
+
+- Percentage-based commission calculations.
+- Fixed-fee compensation.
+- Product allocations.
+- Zero funded deals.
+- Invalid input handling.
+- Scenario adjustments.
+- Non-overlapping tier thresholds.
+- Bonus eligibility.
+- Recurring compensation.
+- Payment delays.
+- 12- and 36-month projections.
+- Exported report accuracy.
+
+Create cross-variant parity tests.
+
+For identical inputs, all four designs and the production root must return identical financial results.
+
+Verify that:
+
+- Every variant loads independently.
+- Every variant has functional inputs.
+- Charts update correctly.
+- Results are calculated rather than hardcoded.
+- The root matches Variant 1.
+- Other variants remain preserved.
+- The root works without accessing the alternate theme folders.
+- The portfolio export works at a nested URL.
+- No relative asset paths are broken.
+- No external services are required for core calculations.
+- Unsupported features are disabled or hidden.
+- All active CTAs have valid destinations.
+- The designs work on mobile devices.
+- All demonstration figures are clearly labeled.
+
+Do not claim that tests have passed unless they were actually executed.
+
+---
+
+### 28. Documentation
+
+Create a README covering:
+
+- Project overview.
+- Selected production theme.
+- All four variations.
+- Local development instructions.
+- File architecture.
+- Calculation engine.
+- Compensation configuration.
+- Variant promotion workflow.
+- Production and review deployment.
+- Flash-UI Portfolio export.
+- Known limitations.
+- Missing approved program data.
+- Optional integration requirements.
+
+Create additional documentation files:
+
+- docs/DESIGN-SYSTEM.md
+- docs/COMMISSION-MODEL.md
+- docs/PORTFOLIO-IMPORT.md
+- docs/DEPLOYMENT.md
+
+Document how to replace illustrative compensation data with approved program data without changing any theme-specific code.
+
+---
+
+### 29. Implementation sequence
+
+Complete the project in this order:
+
+1. Create shared financial configuration and calculation logic.
+2. Establish deterministic test data.
+3. Implement Variant 1 as the authoritative production design.
+4. Generate the production root from Variant 1.
+5. Implement Variant 2 with its distinct editorial design.
+6. Implement Variant 3 with its financial SaaS design.
+7. Implement Variant 4 with its pastel product design.
+8. Verify functional parity across all four variations.
+9. Create the variant gallery and metadata.
+10. Implement variant promotion and portfolio export.
+11. Generate deployable outputs.
+12. Complete testing and documentation.
+
+Do not stop after generating the first design.
+
+Do not substitute incomplete placeholders for the remaining variations.
+
+If external integration details are unavailable, complete the local functionality and document the missing configuration.
+
+---
+
+### 30. Final deliverables
+
+Generate:
+
+- One production-ready root calculator using Punk Utility Brutalism.
+- Four fully functional visual design variants.
+- One shared financial calculation engine.
+- One centralized compensation configuration.
+- One variant manifest.
+- Four reusable theme definition files.
+- One optional design comparison gallery.
+- One variant promotion workflow.
+- One portable Flash-UI Portfolio export.
+- Automated calculation tests.
+- Cross-variant functional tests.
+- Complete repository documentation.
+
+Maintain the selected design references as distinct visual systems.
+
+The final outcome should not be four unrelated websites.
+
+It should be one durable financial product with four interchangeable, independently preserved visual implementations.
+
+**Production default: Broker Commission Calculator 1 — Punk Utility Brutalism.**
+
+**All four variations must remain available for future review, portfolio publication, reuse, and production promotion.**

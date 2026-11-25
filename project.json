@@ -1,0 +1,9 @@
+{
+  "id": "commission-calculator",
+  "name": "Commission Calculator",
+  "version": "1.0.0",
+  "defaultVariant": "variant-1",
+  "compensationMode": "demonstration",
+  "canonicalUrl": null,
+  "brand": "Moonshine Capital"
+}

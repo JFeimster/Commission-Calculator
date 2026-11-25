@@ -1,0 +1,18 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {config,defaultState} from '../shared/config/commission-config.js';import {calculate,validate,tierFor,compare,targetDeals,fromQuery} from '../shared/lib/calculator-engine.js';import {report,csv,shareUrl} from '../shared/lib/reporting.js';
+const fresh=()=>defaultState();
+test('baseline monthly, annual, 12 and 36 month',()=>{const r=calculate(fresh());assert.equal(r.current.volume,500000);assert.equal(r.current.gross,15000);assert.equal(r.annualized,180000);assert.equal(r.firstYear,180000);assert.equal(r.threeYear,540000)});
+test('zero deals and no invalid division',()=>assert.equal(calculate({...fresh(),deals:0}).threeYear,0));
+test('allocation must total 100',()=>{const s=fresh();s.allocation.business=99;assert.throws(()=>calculate(s),/100%/)});
+test('reject negative and nonnumeric and fractional deal input',()=>{for(const deals of [-1,NaN,1.5,1001])assert.throws(()=>calculate({...fresh(),deals}));});
+test('product contributions equal total',()=>{const r=calculate(fresh());assert.equal(r.current.items.reduce((a,x)=>a+x.commission,0),r.current.gross)});
+test('fixed fee on eligible deals',()=>{const c=structuredClone(config);c.products[0].method='fixed';c.products[0].fixed=100;const s=defaultState(c);s.rates.business=100;assert.equal(calculate(s,c).current.items[0].commission,200)});
+test('scenario factors adjust production',()=>assert.deepEqual(compare(fresh()).map(x=>x.current.gross),[9000,15000,21000]));
+test('tiers boundaries',()=>assert.deepEqual([0,1,10,11,25,26,50,51].map(x=>tierFor(x).name),['Pre-production','Bronze','Bronze','Silver','Silver','Gold','Gold','Platinum']));
+test('growth, capacity and ramp',()=>{const r=calculate({...fresh(),growth:10,capacity:11,ramp:2});assert.equal(r.rows[0].deals,5);assert.equal(r.rows[1].deals,11);assert.equal(r.rows[2].deals,11)});
+test('payment timing and expenses do not change earned gross',()=>{const r=calculate({...fresh(),delay:2,expense:1000});assert.equal(r.rows[0].receipts,0);assert.equal(r.rows[0].operatingIncome,-1000);assert.equal(r.rows[2].receipts,15000);assert.equal(r.threeYear,540000)});
+test('qualified bonus feature gate and threshold',()=>{const c=structuredClone(config);c.bonuses=[{minDeals:10,amount:500}];let s={...fresh(),bonuses:true};assert.equal(calculate(s,c).current.gross,15000);c.features.bonuses=true;assert.equal(calculate(s,c).current.gross,15500);assert.equal(calculate({...s,deals:9},c).current.bonus,0)});
+test('recurring cohorts retain once per period',()=>{const c=structuredClone(config);c.recurring=[{productId:'credit',monthlyFee:100}];c.features.recurring=true;const r=calculate({...fresh(),recurring:true,retention:50},c);assert.equal(r.rows[0].recurring,200);assert.equal(r.rows[1].recurring,300);assert.equal(r.rows[2].recurring,350)});
+test('target calculation and unreachable capacity',()=>{assert.equal(targetDeals(fresh()).deals,10);assert.equal(targetDeals({...fresh(),capacity:0}),null)});
+test('report values and CSV metadata',()=>{const s=fresh();assert.equal(report(s).results.threeYear,540000);assert.match(csv(s),/"36 months","540000"/);assert.match(csv(s),/Hypothetical gross commission/)});
+test('share link roundtrip excludes unrelated data',()=>{const s=fresh();const u=shareUrl(s,'https://example.test/x/?email=private');assert.deepEqual(fromQuery(new URL(u).search),s);assert.ok(!u.includes('private'));assert.deepEqual(fromQuery('?s=garbage'),s)});
+test('verified configuration requires source and effective date',()=>{const c=structuredClone(config);c.verificationStatus='verified';assert.ok(validate(fresh(),c).some(x=>x.includes('approved source')))});

@@ -1,0 +1,104 @@
+{
+  "mode": "offline local HTML/CSS/JS fixture; actual HTTP navigation blocked by administrator",
+  "results": [
+    {
+      "file": "index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "sites/variant-1/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "sites/variant-2/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "sites/variant-3/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "sites/variant-4/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "dist/production/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "dist/review/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "dist/portfolio/sites/moonshine-broker-commission-calculator/variant-1/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "dist/portfolio/sites/moonshine-broker-commission-calculator/variant-2/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "dist/portfolio/sites/moonshine-broker-commission-calculator/variant-3/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    },
+    {
+      "file": "dist/portfolio/sites/moonshine-broker-commission-calculator/variant-4/index.html",
+      "baseline": "pass",
+      "interactions": "pass",
+      "exports": "pass",
+      "320px_390px_no_overflow": "pass",
+      "local_imports": "pass",
+      "page_errors": []
+    }
+  ]
+}

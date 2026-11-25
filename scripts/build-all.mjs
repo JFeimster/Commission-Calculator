@@ -1,0 +1,16 @@
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+import fs from 'node:fs';
+import path from 'node:path';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const run=(...args)=>execFileSync(process.execPath,args,{cwd:root,stdio:'inherit'});
+run('--test','tests/engine.test.js');
+run('scripts/build.mjs','production');
+run('scripts/build.mjs','review');
+run('scripts/export-portfolio.mjs');
+const slug=JSON.parse(fs.readFileSync(path.join(root,'variants.json'),'utf8')).projectId;
+const required=['dist/production/index.html','dist/production/shared/lib/calculator-engine.js','dist/review/index.html','dist/review/sites/index.html',`dist/portfolio/sites/${slug}/index.html`,`dist/portfolio/sites/${slug}/shared/lib/calculator-engine.js`];
+for(let n=1;n<=4;n++)required.push(`dist/review/sites/variant-${n}/index.html`,`dist/portfolio/sites/${slug}/variant-${n}/index.html`);
+for(const name of required)if(!fs.statSync(path.join(root,name)).isFile())throw Error('Missing output: '+name);
+if(fs.existsSync(path.join(root,'dist/production/sites')))throw Error('Production contains alternate variants');
+console.log('\nAll three deployment outputs generated and required files verified.');

@@ -1,0 +1,18 @@
+{
+  "name": "commission-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/engine.test.js",
+    "build": "node scripts/build.mjs production",
+    "build:review": "node scripts/build.mjs review",
+    "promote": "node scripts/promote-variant.mjs",
+    "export:portfolio": "node scripts/export-portfolio.mjs",
+    "build:all": "node scripts/build-all.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
