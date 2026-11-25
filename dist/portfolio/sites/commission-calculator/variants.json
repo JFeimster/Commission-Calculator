@@ -1,0 +1,61 @@
+{
+  "projectId": "commission-calculator",
+  "projectName": "Commission Calculator",
+  "version": "1.0.0",
+  "defaultVariant": "variant-1",
+  "variants": [
+    {
+      "id": "variant-1",
+      "number": 1,
+      "themeName": "Punk Utility Brutalism",
+      "themeId": "punk-utility-brutalism",
+      "folderPath": "variant-1/",
+      "referenceImagePath": null,
+      "previewPath": "previews/variant-1-desktop.png",
+      "mobilePreviewPath": "previews/variant-1-mobile.png",
+      "selected": true,
+      "portfolioStatus": "preserved",
+      "description": "Hard-edged utility. Electric green on near-black."
+    },
+    {
+      "id": "variant-2",
+      "number": 2,
+      "themeName": "Broker’s Manifesto",
+      "themeId": "brokers-manifesto",
+      "folderPath": "variant-2/",
+      "referenceImagePath": null,
+      "previewPath": "previews/variant-2-desktop.png",
+      "mobilePreviewPath": "previews/variant-2-mobile.png",
+      "selected": false,
+      "portfolioStatus": "preserved",
+      "description": "Independent-finance editorial field manual."
+    },
+    {
+      "id": "variant-3",
+      "number": 3,
+      "themeName": "Lime Precision Fintech",
+      "themeId": "lime-precision-fintech",
+      "folderPath": "variant-3/",
+      "referenceImagePath": null,
+      "previewPath": "previews/variant-3-desktop.png",
+      "mobilePreviewPath": "previews/variant-3-mobile.png",
+      "selected": false,
+      "portfolioStatus": "preserved",
+      "description": "Premium dark hero, bright precision dashboard."
+    },
+    {
+      "id": "variant-4",
+      "number": 4,
+      "themeName": "Pastel Intelligence",
+      "themeId": "pastel-intelligence",
+      "folderPath": "variant-4/",
+      "referenceImagePath": null,
+      "previewPath": "previews/variant-4-desktop.png",
+      "mobilePreviewPath": "previews/variant-4-mobile.png",
+      "selected": false,
+      "portfolioStatus": "preserved",
+      "description": "Approachable lavender-led financial planning."
+    }
+  ],
+  "brand": "Moonshine Capital"
+}

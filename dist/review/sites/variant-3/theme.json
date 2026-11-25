@@ -1,0 +1,32 @@
+{
+  "id": "lime-precision-fintech",
+  "name": "Lime Precision Fintech",
+  "description": "Premium dark hero, bright precision dashboard.",
+  "palette": [
+    "#090B09",
+    "#171A17",
+    "#A7FA3B",
+    "#E8F9D5",
+    "#F6F7F5",
+    "#E8EBE7",
+    "#505850",
+    "#151A15"
+  ],
+  "typography": "Contemporary sans with tabular financial figures",
+  "layout": [
+    "Dark hero with embedded calculator; light full-width dashboard"
+  ],
+  "components": {
+    "shape": "rounded",
+    "chart": "high contrast bars",
+    "focus": "visible outline"
+  },
+  "imagery": "Subtle lime halo and product UI",
+  "accessibility": [
+    "44px controls",
+    "Keyboard focus",
+    "Reduced motion",
+    "Text summaries",
+    "Responsive table scroll"
+  ]
+}

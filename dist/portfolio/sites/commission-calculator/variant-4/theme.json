@@ -1,0 +1,33 @@
+{
+  "id": "pastel-intelligence",
+  "name": "Pastel Intelligence",
+  "description": "Approachable lavender-led financial planning.",
+  "palette": [
+    "#FCFBFF",
+    "#F1ECFC",
+    "#D5BDFB",
+    "#793FDC",
+    "#241343",
+    "#BDEBFA",
+    "#B9EAD9",
+    "#FFD8B3",
+    "#FFF0BE"
+  ],
+  "typography": "Contemporary sans with tabular financial figures",
+  "layout": [
+    "Asymmetrical hero and split calculator"
+  ],
+  "components": {
+    "shape": "rounded",
+    "chart": "high contrast bars",
+    "focus": "visible outline"
+  },
+  "imagery": "Original vector art, no flattened references",
+  "accessibility": [
+    "44px controls",
+    "Keyboard focus",
+    "Reduced motion",
+    "Text summaries",
+    "Responsive table scroll"
+  ]
+}

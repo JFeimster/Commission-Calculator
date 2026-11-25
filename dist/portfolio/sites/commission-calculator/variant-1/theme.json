@@ -1,0 +1,30 @@
+{
+  "id": "punk-utility-brutalism",
+  "name": "Punk Utility Brutalism",
+  "description": "Hard-edged utility. Electric green on near-black.",
+  "palette": [
+    "#080808",
+    "#141414",
+    "#00F23D",
+    "#F7F7F4",
+    "#929292",
+    "#292929"
+  ],
+  "typography": "Condensed display and neutral body",
+  "layout": [
+    "Asymmetrical hero and split calculator"
+  ],
+  "components": {
+    "shape": "square",
+    "chart": "high contrast bars",
+    "focus": "visible outline"
+  },
+  "imagery": "Original vector art, no flattened references",
+  "accessibility": [
+    "44px controls",
+    "Keyboard focus",
+    "Reduced motion",
+    "Text summaries",
+    "Responsive table scroll"
+  ]
+}
